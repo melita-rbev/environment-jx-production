@@ -1,0 +1,11 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: production
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: production
+  - name: CHART_REPOSITORY
+    value: https://chartmuseum.jx.build.melita.it
+  pipelines: {}
