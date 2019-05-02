@@ -16,3 +16,6 @@ dependencies:
 - name: openfiber-address-api
   repository: https://chartmuseum.jx.build.melita.it
   version: 1.0.46
+- name: personal-details-validator-api
+  repository: https://chartmuseum.jx.build.melita.it
+  version: 1.0.40
