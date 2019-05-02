@@ -1,9 +1,12 @@
 dependencies:
-- alias: expose
+- name: appointment-scheduling-api
+  repository: https://chartmuseum.jx.build.melita.it
+  version: 1.0.29
+- alias: cleanup
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.89
-- alias: cleanup
+- alias: expose
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.89
