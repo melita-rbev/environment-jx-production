@@ -21,3 +21,7 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+amdocs-ws-api:
+  replicaCount: 2
+  springBoot:
+    profiles: default,gcp,ita-production
