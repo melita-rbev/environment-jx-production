@@ -25,3 +25,8 @@ amdocs-ws-api:
   replicaCount: 3
   springBoot:
     profiles: default,gcp,ita-production
+payment-service-api:
+  env:
+    STATUS_URL: https://www.melita.it/api/payment/apco/checkout/callback
+  springBoot:
+    databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
