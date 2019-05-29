@@ -30,3 +30,6 @@ payment-service-api:
     STATUS_URL: https://www.melita.it/api/payment/apco/checkout/callback
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
+selfcare-api:
+  springBoot:
+    databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
