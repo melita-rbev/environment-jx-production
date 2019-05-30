@@ -31,6 +31,7 @@ payment-service-api:
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
 selfcare-api:
+  replicaCount: 3
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
     profiles: gcp,gcp-production
