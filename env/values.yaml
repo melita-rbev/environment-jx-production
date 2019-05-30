@@ -34,4 +34,4 @@ selfcare-api:
   replicaCount: 3
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
-    profiles: gcp,gcp-production
+    profiles: gcp,gcp-production,default,amdocs-ws-api-production,ehcache,all-diagnostics,wifi-diagnostics,antivirus,selfcare-instance-italia,test,ad-italia,amdocs-rest-spring4,ws-api-production
