@@ -24,7 +24,7 @@ prow: {}
 amdocs-ws-api:
   replicaCount: 1
   springBoot:
-    profiles: default,gcp,ita-production
+    profiles: default,gcp,ita-production,bump
 payment-service-api:
   env:
     STATUS_URL: https://www.melita.it/api/payment/apco/checkout/callback
