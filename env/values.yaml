@@ -22,7 +22,6 @@ jenkins:
     Global: {}
 prow: {}
 amdocs-ws-api:
-  replicaCount: 2
   springBoot:
     profiles: default,gcp,ita-production,bump
 payment-service-api:
@@ -38,13 +37,9 @@ selfcare-api:
 modeminfo-api:
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
-customer-events-ws:
-  replicaCount: 2
 kyc-service-api:
   replicaCount: 2
 melita-it-eshop-api:
-  replicaCount: 2
-mesh-api:
   replicaCount: 2
 mymelita-frontend:
   replicaCount: 2
@@ -53,6 +48,4 @@ openfiber-address-api:
 ott-service-api:
   replicaCount: 2
 personal-details-validator-api:
-  replicaCount: 2
-sandbox:
   replicaCount: 2
