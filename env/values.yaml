@@ -36,7 +36,7 @@ selfcare-api:
 modeminfo-api:
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
-kyc-service-api:
-  replicaCount: 2
 mymelita-frontend:
+  replicaCount: 2
+melita-it-eshop-frontend:
   replicaCount: 2
