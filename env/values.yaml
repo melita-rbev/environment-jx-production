@@ -22,21 +22,43 @@ jenkins:
     Global: {}
 prow: {}
 amdocs-ws-api:
-  replicaCount: 1
+  replicaCount: 2
   springBoot:
     profiles: default,gcp,ita-production,bump
 payment-service-api:
+  replicaCount: 2
   env:
     STATUS_URL: https://www.melita.it/api/payment/apco/checkout/callback
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
 selfcare-api:
-  replicaCount: 1
+  replicaCount: 2
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
     profiles: gcp,gcp-production,default,amdocs-ws-api-production,ehcache,all-diagnostics,wifi-diagnostics,antivirus,selfcare-instance-italia,test,ad-italia,amdocs-rest-spring4,ws-api-production
 modeminfo-api:
+  replicaCount: 2
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
 appointment-scheduling-api:
-  replicaCount: 1
+  replicaCount: 2
+customer-events-ws:
+  replicaCount: 2
+eshop-product-api:
+  replicaCount: 2
+kyc-service-api:
+  replicaCount: 2
+melita-it-eshop-api:
+  replicaCount: 2
+mesh-api:
+  replicaCount: 2
+mymelita-frontend:
+  replicaCount: 2
+openfiber-address-api:
+  replicaCount: 2
+ott-service-api:
+  replicaCount: 2
+personal-details-validator-api:
+  replicaCount: 2
+sandbox:
+  replicaCount: 2
