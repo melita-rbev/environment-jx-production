@@ -39,4 +39,4 @@ modeminfo-api:
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
 appointment-scheduling-api:
-  replicaCount: 3
+  replicaCount: 1
