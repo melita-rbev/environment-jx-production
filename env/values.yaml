@@ -22,6 +22,7 @@ jenkins:
     Global: {}
 prow: {}
 amdocs-ws-api:
+  replicaCount: 1
   springBoot:
     profiles: default,gcp,ita-production,bump
 payment-service-api:
