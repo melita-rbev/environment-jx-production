@@ -41,6 +41,8 @@ mymelita-frontend:
   replicaCount: 2
 melita-it-eshop-frontend:
   replicaCount: 2
+customer-360-frontend:
+  replicaCount: 2
 melita-it-customer-management-api:
   springBoot:
     profiles: gcp-master,gcp,amdocs-rest-spring4,amdocs-ws-api-production
