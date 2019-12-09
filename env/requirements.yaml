@@ -10,7 +10,7 @@ dependencies:
   version: 0.0.40
 - name: eshop-product-api
   repository: https://chartmuseum.jx.build.melita.it
-  version: 1.0.57
+  version: 1.0.59
 - alias: cleanup
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
@@ -24,10 +24,10 @@ dependencies:
   version: 1.0.38
 - name: melita-it-eshop-api
   repository: https://chartmuseum.jx.build.melita.it
-  version: 1.0.146
+  version: 1.0.147
 - name: melita-it-eshop-frontend
   repository: https://chartmuseum.jx.build.melita.it
-  version: 0.0.135
+  version: 0.0.136
 - name: openfiber-address-api
   repository: https://chartmuseum.jx.build.melita.it
   version: 1.0.65
