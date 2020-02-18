@@ -52,6 +52,7 @@ melita-it-customer-management-api:
     profiles: gcp-master,gcp,amdocs-rest-spring4,amdocs-ws-api-production
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
 openfiber-address-api:
+  replicaCount: 2
   springBoot:
     profiles: default,gcp,gcp-production
 ott-service-api:
