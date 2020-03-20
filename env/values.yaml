@@ -59,6 +59,7 @@ ott-service-api:
   springBoot:
     databaseInstance: melita-italy:europe-west3:prod-mysql=tcp:3306
 customer-events-ws:
+  replicaCount: 2
   livenessProbe:
     initialDelaySeconds: 90
   readinessProbe:
